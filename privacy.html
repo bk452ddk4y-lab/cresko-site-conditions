@@ -4,237 +4,59 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Politique de confidentialité — CRESKO</title>
+<meta name="robots" content="index,follow">
+<!-- Généré par app/scripts/build-legal.ts depuis app/shared/legalContent.ts — NE PAS ÉDITER À LA MAIN.
+     Aucune police ni aucun script externe : rien n'est chargé depuis un tiers. -->
 <style>
-  :root{
-    --bg:#FBF4E4; --card:#FFFDF6; --lip:#E6D9BC; --ink:#33402C; --soft:#5C5744;
-    --muted:#8B8168; --green:#16a34a; --greenDark:#15803d; --sun:#E3A81C;
-    --sunWash:#FFF3D3; --sunLip:#EFD9A0; --coral:#DB5F35; --coralWash:#FFE8DC;
-  }
-  *{box-sizing:border-box}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
-    max-width:760px;margin:0 auto;padding:0 20px 90px;background:var(--bg);color:var(--soft);
-    line-height:1.65;font-size:16px;-webkit-text-size-adjust:100%;
-  }
-  header{padding:40px 0 8px}
-  .brand{font-size:26px;font-weight:800;letter-spacing:-0.5px;color:var(--ink);text-decoration:none}
-  .brand span{color:var(--green)}
-  nav{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px}
-  nav a{
-    font-size:13px;font-weight:700;text-decoration:none;color:var(--muted);
-    background:var(--card);padding:6px 13px;border-radius:14px 10px 15px 11px;box-shadow:0 2px 0 var(--lip);
-  }
-  nav a[aria-current]{color:var(--greenDark);background:#E4F1DC;box-shadow:0 2px 0 #C8E0BD}
-  h1{font-size:29px;line-height:1.25;color:var(--ink);margin:26px 0 6px;letter-spacing:-0.4px}
-  .updated{
-    display:inline-block;font-size:12.5px;font-weight:700;color:var(--muted);
-    background:var(--card);padding:4px 11px;border-radius:12px 9px 13px 10px;box-shadow:0 2px 0 var(--lip);margin-bottom:26px;
-  }
-  h2{
-    font-size:18px;color:var(--ink);margin:34px 0 10px;letter-spacing:-0.2px;
-    display:flex;align-items:baseline;gap:9px;
-  }
-  h2 .n{
-    font-size:12px;font-weight:800;color:var(--greenDark);background:#E4F1DC;
-    padding:3px 8px;border-radius:9px 7px 10px 7px;flex:none;
-  }
-  .card{
-    background:var(--card);border-radius:20px 15px 22px 14px;padding:20px 22px;margin-bottom:14px;
-    box-shadow:0 3px 0 var(--lip);
-  }
-  .card p:first-child{margin-top:0}
-  .card p:last-child{margin-bottom:0}
-  .warn{background:var(--sunWash);box-shadow:0 3px 0 var(--sunLip)}
-  .warn strong{color:#8a6407}
-  .key{font-weight:700;color:var(--ink)}
-  ul{padding-left:19px;margin:10px 0}
-  li{margin-bottom:7px}
-  li::marker{color:var(--green)}
-  a{color:var(--greenDark);font-weight:700}
-  .toc{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 8px}
-  .toc a{
-    font-size:12.5px;text-decoration:none;color:var(--soft);background:var(--card);
-    padding:5px 11px;border-radius:12px 9px 13px 10px;box-shadow:0 2px 0 var(--lip);font-weight:600;
-  }
-  footer{
-    margin-top:44px;padding-top:22px;border-top:2px dashed var(--lip);
-    font-size:13px;color:var(--muted);text-align:center;
-  }
-  @media (max-width:520px){ body{font-size:15.5px} h1{font-size:25px} }
+:root{--bg:#FBF4E4;--card:#FFFDF6;--lip:#E6D9BC;--ink:#33402C;--soft:#5C5744;--muted:#8B8168;--green:#16a34a;--greenDark:#15803d;--wash:#E4F1DC;--washLip:#C8E0BD}
+*{box-sizing:border-box}
+body{font-family:ui-rounded,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:760px;margin:0 auto;padding:0 20px 90px;background:var(--bg);color:var(--soft);line-height:1.65;font-size:16px;-webkit-text-size-adjust:100%}
+header{padding:36px 0 6px}
+.brand{font-size:26px;font-weight:800;letter-spacing:-.5px;color:var(--ink);text-decoration:none}
+.brand span{color:var(--green)}
+nav.tabs{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px}
+nav.tabs a{font-size:13px;font-weight:700;text-decoration:none;color:var(--muted);background:var(--card);padding:7px 13px;border-radius:14px;border:2px solid var(--lip)}
+nav.tabs a[aria-current]{color:var(--greenDark);background:var(--wash);border-color:var(--washLip)}
+h1{font-size:30px;line-height:1.2;color:var(--ink);margin:26px 0 4px;letter-spacing:-.4px}
+.updated{color:var(--muted);font-size:14px;margin:0 0 18px}
+.kick{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--greenDark);margin:0 0 8px}
+.ess{background:var(--wash);border:2px solid var(--washLip);border-radius:20px;padding:16px 18px;margin-bottom:16px}
+.ess ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.ess li{display:flex;gap:10px;color:var(--ink)}
+.ess li::before{content:'';flex:none;width:10px;height:10px;margin-top:8px;border-radius:50%;background:var(--green)}
+.toc{background:var(--card);border:2px solid var(--lip);border-radius:20px;padding:14px 18px;margin-bottom:16px}
+.toc .kick{color:var(--muted)}
+.toc ol{margin:0;padding-left:20px;columns:2;column-gap:28px}
+.toc a{color:var(--ink);font-weight:600;text-decoration:none}
+.toc a:hover{text-decoration:underline}
+.card{background:var(--card);border:2px solid var(--lip);border-bottom-width:4px;border-radius:20px;padding:16px 20px;margin-bottom:12px;scroll-margin-top:16px}
+h2{font-size:17px;color:var(--ink);margin:0 0 6px}
+.card p{margin:0}
+strong{color:var(--ink)}
+a{color:var(--greenDark);font-weight:700}
+mark{background:#FFE08A;color:#3D2C00;padding:0 3px;border-radius:4px}
+footer{margin-top:36px;padding-top:18px;border-top:2px dashed var(--lip);font-size:14px;color:var(--muted)}
+@media (max-width:560px){.toc ol{columns:1}h1{font-size:26px}}
 </style>
 </head>
 <body>
-
-<header>
-  <a class="brand" href="index.html">CRE<span>SKO</span></a>
-  <nav>
-    <a href="index.html">Accueil</a>
-    <a href="privacy.html" aria-current="page">Confidentialité</a>
-    <a href="terms.html">Conditions</a>
-    <a href="support.html">Support</a>
-  </nav>
-</header>
-
+<header><a class="brand" href="https://cresko.fr">CRES<span>KO</span></a><nav class="tabs" aria-label="Pages légales"><a href="terms.html">Conditions d'utilisation</a><a href="privacy.html" aria-current="page">Politique de confidentialité</a><a href="support.html">Support</a></nav></header>
+<main>
 <h1>Politique de confidentialité</h1>
-<p class="updated">Dernière mise à jour : 23 septembre 2026</p>
-
-<div class="card warn">
-  <p><strong>Nature éducative de CRESKO.</strong> CRESKO est une application d'éducation
-  financière. Elle n'est ni une banque, ni un courtier, ni un conseiller en investissement, ni un
-  intermédiaire financier, et ne fournit aucun service financier réglementé. Les portefeuilles et
-  simulateurs de l'application utilisent exclusivement de l'argent fictif. Aucun contenu ne
-  constitue un conseil en investissement personnalisé.</p>
-</div>
-
-<div class="card">
-  <p>Cette page explique quelles données personnelles nous traitons lorsque tu utilises CRESKO,
-  pourquoi, combien de temps, et quels sont tes droits. Elle est rédigée simplement, sans
-  jargon.</p>
-</div>
-
-<div class="toc">
-  <a href="#responsable">1. Responsable</a>
-  <a href="#donnees">2. Données traitées</a>
-  <a href="#finalites">3. Finalités &amp; bases légales</a>
-  <a href="#partage">4. Partage</a>
-  <a href="#duree">5. Conservation</a>
-  <a href="#securite">6. Sécurité</a>
-  <a href="#age">7. Âge</a>
-  <a href="#transferts">8. Transferts</a>
-  <a href="#droits">9. Tes droits</a>
-  <a href="#modif">10. Modifications</a>
-  <a href="#contact">11. Contact</a>
-</div>
-
-<h2 id="responsable"><span class="n">1</span> Qui est responsable de tes données</h2>
-<div class="card">
-  <p>Le responsable du traitement est l'éditeur de l'application CRESKO, joignable à l'adresse
-  <a href="mailto:artusdv@icloud.com">artusdv@icloud.com</a>. Toute question relative à cette
-  politique ou à tes données peut être adressée à cette adresse.</p>
-</div>
-
-<h2 id="donnees"><span class="n">2</span> Les données que nous traitons</h2>
-<div class="card">
-  <p class="key">Sans compte</p>
-  <p>Ta progression (expérience, série, leçons terminées, trophées, pièces, portefeuille simulé)
-  est enregistrée <span class="key">sur ton appareil uniquement</span>. Nous n'y avons pas accès.</p>
-</div>
-<div class="card">
-  <p class="key">Avec un compte</p>
-  <p>Si tu crées un compte pour retrouver ta progression sur plusieurs appareils, nous traitons :</p>
-  <ul>
-    <li>ton <span class="key">adresse email</span> et les éléments d'authentification associés ;</li>
-    <li>tes <span class="key">données de jeu</span> : progression, statistiques, portefeuille
-    simulé, prédiction en cours, prénom donné à la mascotte ;</li>
-    <li>si tu utilises les fonctions sociales : un <span class="key">pseudonyme</span> et des
-    statistiques de jeu, visibles des personnes que tu ajoutes ou du classement. Ton adresse email
-    n'y est jamais affichée.</li>
-  </ul>
-</div>
-<div class="card">
-  <p class="key">Données techniques</p>
-  <p>Comme tout service en ligne, nos prestataires d'hébergement enregistrent des données
-  techniques de connexion (adresse IP, horodatage, type d'appareil) nécessaires au fonctionnement
-  et à la sécurité du service.</p>
-  <p>Nous ne traitons <span class="key">aucune donnée sensible</span> au sens du RGPD (santé,
-  opinions, orientation, données biométriques). Merci de ne pas nous en communiquer.</p>
-</div>
-
-<h2 id="finalites"><span class="n">3</span> Pourquoi, et sur quelle base légale</h2>
-<div class="card">
-  <ul>
-    <li><span class="key">Fournir le service</span> — sauvegarder et restaurer ta progression,
-    gérer ton compte, faire fonctionner les classements et le parrainage.
-    <em>Base : exécution du contrat.</em></li>
-    <li><span class="key">Sécurité et prévention des abus</span> — protéger les comptes, détecter
-    la fraude et la triche. <em>Base : intérêt légitime.</em></li>
-    <li><span class="key">Gérer les achats</span> — associer un abonnement actif à ton compte.
-    <em>Base : exécution du contrat.</em></li>
-    <li><span class="key">Répondre à tes demandes</span> — support, exercice de tes droits.
-    <em>Base : intérêt légitime et obligation légale.</em></li>
-  </ul>
-</div>
-
-<h2 id="partage"><span class="n">4</span> Avec qui ces données sont partagées</h2>
-<div class="card">
-  <p>Nous ne vendons pas tes données. Elles peuvent être communiquées, dans la stricte mesure du
-  nécessaire, aux catégories de destinataires suivantes :</p>
-  <ul>
-    <li>nos <span class="key">prestataires techniques</span>, agissant sur nos instructions :
-    Supabase (hébergement de la base de données, authentification et envoi d'emails, serveurs
-    situés à Paris) et RevenueCat (gestion des abonnements, qui reçoit l'identifiant technique
-    de ton compte, jamais ton adresse email) ;</li>
-    <li>la <span class="key">plateforme de distribution</span> (Apple, App Store) pour le paiement
-    et la gestion des abonnements, selon ses propres conditions ;</li>
-    <li>les <span class="key">autorités compétentes</span>, lorsque la loi l'exige.</li>
-  </ul>
-  <p>Les fournisseurs de cours de bourse interrogés par l'application reçoivent uniquement le
-  symbole consulté (par exemple « AAPL »), jamais ton identité.</p>
-</div>
-
-<h2 id="duree"><span class="n">5</span> Combien de temps nous les conservons</h2>
-<div class="card">
-  <p>Tes données de compte et de progression sont conservées tant que ton compte existe. Lorsque
-  tu supprimes ton compte, elles sont effacées de nos serveurs. Certaines données peuvent être
-  conservées plus longtemps lorsque la loi l'impose (facturation, obligations comptables) ou pour
-  la constatation et la défense de droits en justice.</p>
-</div>
-
-<h2 id="securite"><span class="n">6</span> Sécurité</h2>
-<div class="card">
-  <p>Nous mettons en œuvre des mesures techniques et organisationnelles adaptées : chiffrement des
-  échanges (HTTPS), authentification, et règles d'accès strictes garantissant que chaque
-  utilisateur n'accède qu'à ses propres données. Aucun système n'étant infaillible, nous ne
-  pouvons garantir une sécurité absolue.</p>
-</div>
-
-<h2 id="age"><span class="n">7</span> Âge minimum</h2>
-<div class="card">
-  <p>CRESKO propose un parcours adapté aux plus jeunes, le mode Junior, pensé pour les 10-15 ans
-  environ. L'application n'est pas destinée aux enfants de moins de 10 ans.</p>
-  <p>Sans compte, la progression reste sur l'appareil. Pour <span class="key">créer un
-  compte avant 15 ans</span>, l'accord d'un titulaire de l'autorité parentale est nécessaire,
-  conformément à la loi française. Lorsque la loi locale fixe un autre âge, c'est cet âge qui
-  s'applique. Un parent peut à tout moment demander l'accès aux données de son enfant ou leur
-  suppression en écrivant à l'adresse de contact ; un compte créé sans cet accord est supprimé
-  dès que nous en avons connaissance.</p>
-</div>
-
-<h2 id="transferts"><span class="n">8</span> Transferts hors de l'Union européenne</h2>
-<div class="card">
-  <p>Nos serveurs sont situés dans l'Union européenne (Paris). Certains prestataires sont
-  toutefois établis hors de l'UE, notamment RevenueCat et Apple, aux États-Unis ; ces transferts
-  sont encadrés par les garanties prévues par le RGPD (clauses contractuelles types de la
-  Commission européenne ou cadre de protection des données UE-États-Unis).</p>
-</div>
-
-<h2 id="droits"><span class="n">9</span> Tes droits</h2>
-<div class="card">
-  <p>Conformément au RGPD, tu disposes des droits d'accès, de rectification, d'effacement, de
-  limitation, d'opposition et de portabilité, ainsi que du droit de retirer ton consentement
-  lorsque le traitement repose sur celui-ci.</p>
-  <p><span class="key">Supprimer ton compte</span> se fait directement dans l'application :
-  Profil → Compte → Supprimer mon compte. La suppression est immédiate et définitive.</p>
-  <p>Pour toute autre demande : <a href="mailto:artusdv@icloud.com">artusdv@icloud.com</a>. Tu
-  disposes également du droit d'introduire une réclamation auprès de la
-  <a href="https://www.cnil.fr" target="_blank" rel="noopener">CNIL</a>.</p>
-</div>
-
-<h2 id="modif"><span class="n">10</span> Modifications</h2>
-<div class="card">
-  <p>Cette politique peut évoluer avec l'application. La date affichée en haut de page indique la
-  version en vigueur ; en cas de changement important, tu en seras informé dans l'application.</p>
-</div>
-
-<h2 id="contact"><span class="n">11</span> Contact</h2>
-<div class="card">
-  <p><a href="mailto:artusdv@icloud.com">artusdv@icloud.com</a></p>
-</div>
-
-<footer>
-  CRESKO — la finance, en s'amusant.<br>
-  <a href="terms.html">Conditions d'utilisation</a> · <a href="support.html">Support</a>
-</footer>
-
+<p class="updated">Dernière mise à jour : 24 septembre 2026</p>
+<section class="ess"><p class="kick">L'essentiel</p><ul><li><span><strong>Sans compte, rien ne quitte ton téléphone</strong> (à part les demandes de cours et d'actus, qui ne portent pas ton identité).</span></li><li><span>Avec un compte, tes données sont hébergées <strong>en France (Paris)</strong>.</span></li><li><span><strong>Aucune publicité, aucun traceur, aucune revente</strong> de données.</span></li><li><span>Tu peux consulter, corriger ou <strong>tout supprimer</strong> quand tu veux.</span></li></ul></section>
+<nav class="toc" aria-label="Sommaire"><p class="kick">Sommaire</p><ol><li><a href="#s1">Qui est responsable</a></li><li><a href="#s2">Sans compte</a></li><li><a href="#s3">Avec un compte</a></li><li><a href="#s4">Pourquoi, et sur quelle base</a></li><li><a href="#s5">Les prestataires qui interviennent</a></li><li><a href="#s6">Ce que nous ne faisons jamais</a></li><li><a href="#s7">Combien de temps</a></li><li><a href="#s8">Tes droits</a></li><li><a href="#s9">Les moins de 15 ans</a></li><li><a href="#s10">Sécurité</a></li></ol></nav>
+<section class="card" id="s1"><h2>1. Qui est responsable</h2><p>Le responsable du traitement est l'éditeur de CRESKO (voir les <strong>mentions légales</strong>). Pour toute question sur tes données : <strong>artusdv@icloud.com</strong>.</p></section>
+<section class="card" id="s2"><h2>2. Sans compte</h2><p>Par défaut, toute ta progression (réponses de l'accueil, prénom ou pseudo, âge indiqué, XP, série, leçons, trophées, pièces, portefeuille virtuel) reste <strong>uniquement sur ton appareil</strong>. L'éditeur n'y a pas accès.</p></section>
+<section class="card" id="s3"><h2>3. Avec un compte</h2><p>Si tu crées un compte pour sauvegarder ta progression, nous conservons : ton <strong>email</strong> et ton mot de passe (chiffré, jamais lisible), et tes <strong>données de progression</strong> (celles de la section 2). Si tu utilises les amis ou la Ligue, ton pseudo, ton niveau, ton XP, ta série et ta performance virtuelle sont visibles des personnes concernées — <strong>jamais ton email</strong>.</p></section>
+<section class="card" id="s4"><h2>4. Pourquoi, et sur quelle base</h2><p><strong>Faire fonctionner ton compte</strong> (sauvegarde, synchronisation, amis, Ligue, abonnement) : exécution du contrat qui nous lie (ces conditions). <strong>Sécuriser le service</strong> (limiter les abus, par exemple les essais de codes en rafale) : intérêt légitime. <strong>Te rappeler ta leçon</strong> : les notifications sont programmées sur ton téléphone et n'ont lieu que si tu les as autorisées, ce que tu peux retirer à tout moment dans les réglages.</p></section>
+<section class="card" id="s5"><h2>5. Les prestataires qui interviennent</h2><p><strong>Supabase</strong> : compte et sauvegarde, serveurs situés à <strong>Paris</strong>. <strong>Apple</strong> : distribution de l'app et paiement de l'abonnement, selon sa propre politique. <strong>RevenueCat</strong> (États-Unis) : vérification de ton abonnement, à partir d'un identifiant technique, sans nom ni donnée bancaire. <strong>Expo</strong> (États-Unis) : mises à jour de l'app. <strong>Fournisseurs de cours de bourse</strong> et <strong>sites d'actualité</strong> : ton téléphone les interroge directement ; ils reçoivent, comme tout site web, ton adresse IP et le symbole ou le flux demandé, jamais ton identité CRESKO. Les transferts hors de l'Union européenne sont encadrés par les garanties prévues par le RGPD (clauses contractuelles types de la Commission européenne ou certification Data Privacy Framework, selon le prestataire).</p></section>
+<section class="card" id="s6"><h2>6. Ce que nous ne faisons jamais</h2><p>Pas de publicité. Pas de traceur publicitaire, pas d'outil d'analyse ou d'enregistrement de session dans l'app. <strong>Aucune vente ni location</strong> de données, à qui que ce soit.</p></section>
+<section class="card" id="s7"><h2>7. Combien de temps</h2><p>Tant que ton compte existe. Quand tu le supprimes (<strong>Profil → Compte → Supprimer mon compte</strong>), ton compte et ta sauvegarde sont effacés immédiatement et définitivement. Les données restées sur ton téléphone disparaissent quand tu désinstalles l'app.</p></section>
+<section class="card" id="s8"><h2>8. Tes droits</h2><p>Tu peux demander à <strong>accéder</strong> à tes données, les <strong>corriger</strong>, les <strong>effacer</strong>, les <strong>récupérer</strong> dans un format lisible (portabilité), <strong>limiter</strong> leur utilisation ou t'y <strong>opposer</strong>, et donner des directives sur leur sort après ton décès. Écris à <strong>artusdv@icloud.com</strong> : réponse sous un mois au plus. Si tu estimes que tes droits ne sont pas respectés, tu peux saisir la <strong>CNIL</strong> (cnil.fr).</p></section>
+<section class="card" id="s9"><h2>9. Les moins de 15 ans</h2><p>Le mode « Mes premiers sous » fonctionne sans compte : rien n'est envoyé. Avant 15 ans, la création d'un compte demande l'<strong>accord d'un parent</strong>, demandé dans l'app au moment de l'inscription. Un parent peut à tout moment nous écrire pour faire supprimer le compte de son enfant.</p></section>
+<section class="card" id="s10"><h2>10. Sécurité</h2><p>Les échanges sont chiffrés (HTTPS). Chaque utilisateur n'accède qu'à ses propres données, grâce à des règles d'accès appliquées côté serveur.</p></section>
+</main>
+<footer>Une question ? <a href="mailto:artusdv@icloud.com">artusdv@icloud.com</a></footer>
 </body>
 </html>
